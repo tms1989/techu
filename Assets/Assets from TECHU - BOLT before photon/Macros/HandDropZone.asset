@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1893448595, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: HandDropZone
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":-357.1589,"y":-199.5299},"zoom":0.5000001,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-884.0,"y":-160.0},"guid":"36de33e9-cd84-4ce4-8a76-008c6bb1f851","$version":"A","$type":"Bolt.Update"},{"chainable":false,"member":{"name":"anchoredPosition","parameterTypes":null,"targetType":"UnityEngine.RectTransform","targetTypeName":"UnityEngine.RectTransform","$version":"A"},"defaultValues":{"target":{"$content":0,"$type":"UnityEngine.Object"},"input":{"x":0.0,"y":-238.0,"$type":"UnityEngine.Vector2"}},"position":{"x":-520.0,"y":-50.0},"guid":"8e3b27b8-315e-4b3b-af63-f7bfc2089851","$version":"A","$type":"Bolt.SetMember","$id":"11"},{"coroutine":false,"defaultValues":{},"position":{"x":-808.0,"y":-8.0},"guid":"37b005c6-4270-477d-9980-ae5179413b49","$version":"A","$type":"Bolt.Start"},{"type":"UnityEngine.GameObject","value":{"$content":1,"$type":"UnityEngine.Object"},"defaultValues":{},"position":{"x":-723.0,"y":140.0},"guid":"9a614caf-564f-4299-970d-d7917e527880","$version":"A","$type":"Bolt.Literal","$id":"16"},{"sourceUnit":{"$ref":"16"},"sourceKey":"output","destinationUnit":{"$ref":"11"},"destinationKey":"target","guid":"a0a6082f-3bb1-4b3c-aa07-8c446cf83048","$type":"Bolt.ValueConnection"},{"position":{"xMin":-857.0,"yMin":-62.0,"xMax":-484.0,"yMax":194.0},"label":"Spawn
+      Position","comment":null,"color":{"r":0.0,"g":0.0,"b":0.0,"a":1.0},"guid":"6b072457-aae8-4399-b867-1c88a0a23090","$version":"A","$type":"Ludiq.GraphGroup"}],"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 4442687740372068646, guid: e0d87faac83bf4878b3bde8a3fa2ec80, type: 3}
+    - {fileID: 8615559279979675907, guid: 91cb0a6b81647442284c1bbdbe675a4a, type: 3}
