@@ -177,7 +177,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6385951958106388904}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 627855c7f81362d41938ffe0b1475957, type: 3}
   m_Name: 
@@ -193,9 +193,28 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6385951958106388905}
     m_Modifications:
+    - target: {fileID: -6613768287320492974, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
+      propertyPath: sceneViewId
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4698477882401323734, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"collection":{"$content":[{"name":"DropZoneCounter","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"IsLegalSpace","value":{"$content":true,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"SpaceRank","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"DropZoneCardList","value":{"$content":[],"$type":"System.Collections.Generic.List`1[[UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"typeHandle":{"Identification":"System.Collections.Generic.List`1[[UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"SpaceNumber","value":{"$content":1,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 970959628042252283, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
+      propertyPath: sceneViewId
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2911050178504058444, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
       propertyPath: m_Name
-      value: DropZone (1)
+      value: DropZone1
       objectReference: {fileID: 0}
     - target: {fileID: 2911050178504058451, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
       propertyPath: m_Pivot.x
@@ -296,16 +315,36 @@ PrefabInstance:
     m_TransformParent: {fileID: 6385951958106388905}
     m_Modifications:
     - target: {fileID: -6613768287320492974, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
+      propertyPath: sceneViewId
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -6613768287320492974, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
       propertyPath: ObservedComponents.Array.size
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -4698477882401323734, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"collection":{"$content":[{"name":"DropZoneCounter","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"SpaceRank","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"DropZoneCardList","value":{"$content":[],"$type":"System.Collections.Generic.List`1[[UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"typeHandle":{"Identification":"System.Collections.Generic.List`1[[UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"IsLegalSpace","value":{"$content":true,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"IsEmptySpace","value":{"$content":true,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"TopCardRank","value":null,"typeHandle":{"Identification":null,"$version":"A"},"$version":"A"},{"name":"SpaceNumber","value":{"$content":11,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     - target: {fileID: -26063700530412375, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
       propertyPath: sceneViewId
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 970959628042252283, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
+      propertyPath: sceneViewId
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2911050178504058444, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
       propertyPath: m_Name
-      value: DropZone (11)
+      value: DropZone11
       objectReference: {fileID: 0}
     - target: {fileID: 2911050178504058451, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
       propertyPath: m_Pivot.x
@@ -406,16 +445,36 @@ PrefabInstance:
     m_TransformParent: {fileID: 6385951958106388905}
     m_Modifications:
     - target: {fileID: -6613768287320492974, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
+      propertyPath: sceneViewId
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -6613768287320492974, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
       propertyPath: ObservedComponents.Array.size
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -4698477882401323734, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"collection":{"$content":[{"name":"DropZoneCounter","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"SpaceRank","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"DropZoneCardList","value":{"$content":[],"$type":"System.Collections.Generic.List`1[[UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"typeHandle":{"Identification":"System.Collections.Generic.List`1[[UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"IsLegalSpace","value":{"$content":true,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"IsEmptySpace","value":{"$content":true,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"TopCardRank","value":null,"typeHandle":{"Identification":null,"$version":"A"},"$version":"A"},{"name":"SpaceNumber","value":{"$content":7,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     - target: {fileID: -26063700530412375, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
       propertyPath: sceneViewId
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 970959628042252283, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
+      propertyPath: sceneViewId
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2911050178504058444, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
       propertyPath: m_Name
-      value: DropZone (7)
+      value: DropZone7
       objectReference: {fileID: 0}
     - target: {fileID: 2911050178504058451, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
       propertyPath: m_Pivot.x
@@ -516,16 +575,36 @@ PrefabInstance:
     m_TransformParent: {fileID: 6385951958106388905}
     m_Modifications:
     - target: {fileID: -6613768287320492974, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
+      propertyPath: sceneViewId
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -6613768287320492974, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
       propertyPath: ObservedComponents.Array.size
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -4698477882401323734, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"collection":{"$content":[{"name":"DropZoneCounter","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"SpaceRank","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"DropZoneCardList","value":{"$content":[],"$type":"System.Collections.Generic.List`1[[UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"typeHandle":{"Identification":"System.Collections.Generic.List`1[[UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"IsLegalSpace","value":{"$content":true,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"IsEmptySpace","value":{"$content":true,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"TopCardRank","value":null,"typeHandle":{"Identification":null,"$version":"A"},"$version":"A"},{"name":"SpaceNumber","value":{"$content":24,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     - target: {fileID: -26063700530412375, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
       propertyPath: sceneViewId
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 970959628042252283, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
+      propertyPath: sceneViewId
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2911050178504058444, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
       propertyPath: m_Name
-      value: DropZone (24)
+      value: DropZone24
       objectReference: {fileID: 0}
     - target: {fileID: 2911050178504058451, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
       propertyPath: m_Pivot.x
@@ -626,16 +705,36 @@ PrefabInstance:
     m_TransformParent: {fileID: 6385951958106388905}
     m_Modifications:
     - target: {fileID: -6613768287320492974, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
+      propertyPath: sceneViewId
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -6613768287320492974, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
       propertyPath: ObservedComponents.Array.size
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -4698477882401323734, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"collection":{"$content":[{"name":"DropZoneCounter","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"SpaceRank","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"DropZoneCardList","value":{"$content":[],"$type":"System.Collections.Generic.List`1[[UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"typeHandle":{"Identification":"System.Collections.Generic.List`1[[UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"IsLegalSpace","value":{"$content":true,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"IsEmptySpace","value":{"$content":true,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"TopCardRank","value":null,"typeHandle":{"Identification":null,"$version":"A"},"$version":"A"},{"name":"SpaceNumber","value":{"$content":18,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     - target: {fileID: -26063700530412375, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
       propertyPath: sceneViewId
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 970959628042252283, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
+      propertyPath: sceneViewId
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2911050178504058444, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
       propertyPath: m_Name
-      value: DropZone (18)
+      value: DropZone18
       objectReference: {fileID: 0}
     - target: {fileID: 2911050178504058451, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
       propertyPath: m_Pivot.x
@@ -736,16 +835,36 @@ PrefabInstance:
     m_TransformParent: {fileID: 6385951958106388905}
     m_Modifications:
     - target: {fileID: -6613768287320492974, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
+      propertyPath: sceneViewId
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -6613768287320492974, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
       propertyPath: ObservedComponents.Array.size
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -4698477882401323734, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"collection":{"$content":[{"name":"DropZoneCounter","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"SpaceRank","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"DropZoneCardList","value":{"$content":[],"$type":"System.Collections.Generic.List`1[[UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"typeHandle":{"Identification":"System.Collections.Generic.List`1[[UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"IsLegalSpace","value":{"$content":true,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"IsEmptySpace","value":{"$content":true,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"TopCardRank","value":null,"typeHandle":{"Identification":null,"$version":"A"},"$version":"A"},{"name":"SpaceNumber","value":{"$content":20,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     - target: {fileID: -26063700530412375, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
       propertyPath: sceneViewId
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 970959628042252283, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
+      propertyPath: sceneViewId
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2911050178504058444, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
       propertyPath: m_Name
-      value: DropZone (20)
+      value: DropZone20
       objectReference: {fileID: 0}
     - target: {fileID: 2911050178504058451, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
       propertyPath: m_Pivot.x
@@ -833,19 +952,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3514031199798720953, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
       propertyPath: m_EffectColor.a
-      value: 0
+      value: 0.49019608
       objectReference: {fileID: 0}
     - target: {fileID: 3514031199798720953, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
       propertyPath: m_UseGraphicAlpha
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3514031199798720953, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
       propertyPath: m_EffectDistance.x
-      value: 0
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 3514031199798720953, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
       propertyPath: m_EffectDistance.y
-      value: 0
+      value: -0.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
@@ -862,16 +981,36 @@ PrefabInstance:
     m_TransformParent: {fileID: 6385951958106388905}
     m_Modifications:
     - target: {fileID: -6613768287320492974, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
+      propertyPath: sceneViewId
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -6613768287320492974, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
       propertyPath: ObservedComponents.Array.size
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -4698477882401323734, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"collection":{"$content":[{"name":"DropZoneCounter","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"SpaceRank","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"DropZoneCardList","value":{"$content":[],"$type":"System.Collections.Generic.List`1[[UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"typeHandle":{"Identification":"System.Collections.Generic.List`1[[UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"IsLegalSpace","value":{"$content":true,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"IsEmptySpace","value":{"$content":true,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"TopCardRank","value":null,"typeHandle":{"Identification":null,"$version":"A"},"$version":"A"},{"name":"SpaceNumber","value":{"$content":13,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     - target: {fileID: -26063700530412375, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
       propertyPath: sceneViewId
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 970959628042252283, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
+      propertyPath: sceneViewId
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2911050178504058444, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
       propertyPath: m_Name
-      value: DropZone (13)
+      value: DropZone13
       objectReference: {fileID: 0}
     - target: {fileID: 2911050178504058451, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
       propertyPath: m_Pivot.x
@@ -972,16 +1111,36 @@ PrefabInstance:
     m_TransformParent: {fileID: 6385951958106388905}
     m_Modifications:
     - target: {fileID: -6613768287320492974, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
+      propertyPath: sceneViewId
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -6613768287320492974, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
       propertyPath: ObservedComponents.Array.size
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -4698477882401323734, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"collection":{"$content":[{"name":"DropZoneCounter","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"SpaceRank","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"DropZoneCardList","value":{"$content":[],"$type":"System.Collections.Generic.List`1[[UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"typeHandle":{"Identification":"System.Collections.Generic.List`1[[UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"IsLegalSpace","value":{"$content":true,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"IsEmptySpace","value":{"$content":true,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"TopCardRank","value":null,"typeHandle":{"Identification":null,"$version":"A"},"$version":"A"},{"name":"SpaceNumber","value":{"$content":17,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     - target: {fileID: -26063700530412375, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
       propertyPath: sceneViewId
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 970959628042252283, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
+      propertyPath: sceneViewId
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2911050178504058444, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
       propertyPath: m_Name
-      value: DropZone (17)
+      value: DropZone17
       objectReference: {fileID: 0}
     - target: {fileID: 2911050178504058451, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
       propertyPath: m_Pivot.x
@@ -1081,9 +1240,29 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6385951958106388905}
     m_Modifications:
+    - target: {fileID: -6613768287320492974, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
+      propertyPath: sceneViewId
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4698477882401323734, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"collection":{"$content":[{"name":"DropZoneCounter","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"SpaceRank","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"DropZoneCardList","value":{"$content":[],"$type":"System.Collections.Generic.List`1[[UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"typeHandle":{"Identification":"System.Collections.Generic.List`1[[UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"IsLegalSpace","value":{"$content":true,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"IsEmptySpace","value":{"$content":true,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"TopCardRank","value":null,"typeHandle":{"Identification":null,"$version":"A"},"$version":"A"},{"name":"SpaceNumber","value":{"$content":2,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 970959628042252283, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
+      propertyPath: sceneViewId
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2911050178504058444, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
       propertyPath: m_Name
-      value: DropZone (2)
+      value: DropZone2
       objectReference: {fileID: 0}
     - target: {fileID: 2911050178504058451, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
       propertyPath: m_Pivot.x
@@ -1184,16 +1363,36 @@ PrefabInstance:
     m_TransformParent: {fileID: 6385951958106388905}
     m_Modifications:
     - target: {fileID: -6613768287320492974, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
+      propertyPath: sceneViewId
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -6613768287320492974, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
       propertyPath: ObservedComponents.Array.size
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -4698477882401323734, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"collection":{"$content":[{"name":"DropZoneCounter","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"SpaceRank","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"DropZoneCardList","value":{"$content":[],"$type":"System.Collections.Generic.List`1[[UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"typeHandle":{"Identification":"System.Collections.Generic.List`1[[UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"IsLegalSpace","value":{"$content":true,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"IsEmptySpace","value":{"$content":true,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"TopCardRank","value":null,"typeHandle":{"Identification":null,"$version":"A"},"$version":"A"},{"name":"SpaceNumber","value":{"$content":21,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     - target: {fileID: -26063700530412375, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
       propertyPath: sceneViewId
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 970959628042252283, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
+      propertyPath: sceneViewId
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2911050178504058444, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
       propertyPath: m_Name
-      value: DropZone (21)
+      value: DropZone21
       objectReference: {fileID: 0}
     - target: {fileID: 2911050178504058451, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
       propertyPath: m_Pivot.x
@@ -1294,16 +1493,36 @@ PrefabInstance:
     m_TransformParent: {fileID: 6385951958106388905}
     m_Modifications:
     - target: {fileID: -6613768287320492974, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
+      propertyPath: sceneViewId
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -6613768287320492974, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
       propertyPath: ObservedComponents.Array.size
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -4698477882401323734, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"collection":{"$content":[{"name":"DropZoneCounter","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"SpaceRank","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"DropZoneCardList","value":{"$content":[],"$type":"System.Collections.Generic.List`1[[UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"typeHandle":{"Identification":"System.Collections.Generic.List`1[[UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"IsLegalSpace","value":{"$content":true,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"IsEmptySpace","value":{"$content":true,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"TopCardRank","value":null,"typeHandle":{"Identification":null,"$version":"A"},"$version":"A"},{"name":"SpaceNumber","value":{"$content":9,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     - target: {fileID: -26063700530412375, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
       propertyPath: sceneViewId
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 970959628042252283, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
+      propertyPath: sceneViewId
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2911050178504058444, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
       propertyPath: m_Name
-      value: DropZone (9)
+      value: DropZone9
       objectReference: {fileID: 0}
     - target: {fileID: 2911050178504058451, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
       propertyPath: m_Pivot.x
@@ -1448,16 +1667,36 @@ PrefabInstance:
     m_TransformParent: {fileID: 6385951958106388905}
     m_Modifications:
     - target: {fileID: -6613768287320492974, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
+      propertyPath: sceneViewId
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -6613768287320492974, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
       propertyPath: ObservedComponents.Array.size
-      value: 2
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4698477882401323734, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"collection":{"$content":[{"name":"DropZoneCounter","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"SpaceRank","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"DropZoneCardList","value":{"$content":[],"$type":"System.Collections.Generic.List`1[[UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"typeHandle":{"Identification":"System.Collections.Generic.List`1[[UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"IsLegalSpace","value":{"$content":true,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"IsEmptySpace","value":{"$content":true,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"TopCardRank","value":null,"typeHandle":{"Identification":null,"$version":"A"},"$version":"A"},{"name":"SpaceNumber","value":{"$content":25,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     - target: {fileID: -26063700530412375, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
       propertyPath: sceneViewId
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 970959628042252283, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
+      propertyPath: sceneViewId
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2911050178504058444, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
       propertyPath: m_Name
-      value: DropZone (25)
+      value: DropZone25
       objectReference: {fileID: 0}
     - target: {fileID: 2911050178504058451, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
       propertyPath: m_Pivot.x
@@ -1558,16 +1797,36 @@ PrefabInstance:
     m_TransformParent: {fileID: 6385951958106388905}
     m_Modifications:
     - target: {fileID: -6613768287320492974, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
+      propertyPath: sceneViewId
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -6613768287320492974, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
       propertyPath: ObservedComponents.Array.size
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -4698477882401323734, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"collection":{"$content":[{"name":"DropZoneCounter","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"SpaceRank","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"DropZoneCardList","value":{"$content":[],"$type":"System.Collections.Generic.List`1[[UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"typeHandle":{"Identification":"System.Collections.Generic.List`1[[UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"IsLegalSpace","value":{"$content":true,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"IsEmptySpace","value":{"$content":true,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"TopCardRank","value":null,"typeHandle":{"Identification":null,"$version":"A"},"$version":"A"},{"name":"SpaceNumber","value":{"$content":23,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     - target: {fileID: -26063700530412375, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
       propertyPath: sceneViewId
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 970959628042252283, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
+      propertyPath: sceneViewId
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2911050178504058444, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
       propertyPath: m_Name
-      value: DropZone (23)
+      value: DropZone23
       objectReference: {fileID: 0}
     - target: {fileID: 2911050178504058451, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
       propertyPath: m_Pivot.x
@@ -1668,16 +1927,36 @@ PrefabInstance:
     m_TransformParent: {fileID: 6385951958106388905}
     m_Modifications:
     - target: {fileID: -6613768287320492974, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
+      propertyPath: sceneViewId
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -6613768287320492974, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
       propertyPath: ObservedComponents.Array.size
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -4698477882401323734, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"collection":{"$content":[{"name":"DropZoneCounter","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"SpaceRank","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"DropZoneCardList","value":{"$content":[],"$type":"System.Collections.Generic.List`1[[UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"typeHandle":{"Identification":"System.Collections.Generic.List`1[[UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"IsLegalSpace","value":{"$content":true,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"IsEmptySpace","value":{"$content":true,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"TopCardRank","value":null,"typeHandle":{"Identification":null,"$version":"A"},"$version":"A"},{"name":"SpaceNumber","value":{"$content":6,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     - target: {fileID: -26063700530412375, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
       propertyPath: sceneViewId
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 970959628042252283, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
+      propertyPath: sceneViewId
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2911050178504058444, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
       propertyPath: m_Name
-      value: DropZone (6)
+      value: DropZone6
       objectReference: {fileID: 0}
     - target: {fileID: 2911050178504058451, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
       propertyPath: m_Pivot.x
@@ -1778,16 +2057,36 @@ PrefabInstance:
     m_TransformParent: {fileID: 6385951958106388905}
     m_Modifications:
     - target: {fileID: -6613768287320492974, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
+      propertyPath: sceneViewId
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -6613768287320492974, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
       propertyPath: ObservedComponents.Array.size
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -4698477882401323734, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"collection":{"$content":[{"name":"DropZoneCounter","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"SpaceRank","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"DropZoneCardList","value":{"$content":[],"$type":"System.Collections.Generic.List`1[[UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"typeHandle":{"Identification":"System.Collections.Generic.List`1[[UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"IsLegalSpace","value":{"$content":true,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"IsEmptySpace","value":{"$content":true,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"TopCardRank","value":null,"typeHandle":{"Identification":null,"$version":"A"},"$version":"A"},{"name":"SpaceNumber","value":{"$content":19,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     - target: {fileID: -26063700530412375, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
       propertyPath: sceneViewId
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 970959628042252283, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
+      propertyPath: sceneViewId
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2911050178504058444, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
       propertyPath: m_Name
-      value: DropZone (19)
+      value: DropZone19
       objectReference: {fileID: 0}
     - target: {fileID: 2911050178504058451, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
       propertyPath: m_Pivot.x
@@ -1888,16 +2187,36 @@ PrefabInstance:
     m_TransformParent: {fileID: 6385951958106388905}
     m_Modifications:
     - target: {fileID: -6613768287320492974, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
+      propertyPath: sceneViewId
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -6613768287320492974, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
       propertyPath: ObservedComponents.Array.size
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -4698477882401323734, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"collection":{"$content":[{"name":"DropZoneCounter","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"SpaceRank","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"DropZoneCardList","value":{"$content":[],"$type":"System.Collections.Generic.List`1[[UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"typeHandle":{"Identification":"System.Collections.Generic.List`1[[UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"IsLegalSpace","value":{"$content":true,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"IsEmptySpace","value":{"$content":true,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"TopCardRank","value":null,"typeHandle":{"Identification":null,"$version":"A"},"$version":"A"},{"name":"SpaceNumber","value":{"$content":4,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     - target: {fileID: -26063700530412375, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
       propertyPath: sceneViewId
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 970959628042252283, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
+      propertyPath: sceneViewId
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2911050178504058444, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
       propertyPath: m_Name
-      value: DropZone (4)
+      value: DropZone4
       objectReference: {fileID: 0}
     - target: {fileID: 2911050178504058451, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
       propertyPath: m_Pivot.x
@@ -1998,16 +2317,36 @@ PrefabInstance:
     m_TransformParent: {fileID: 6385951958106388905}
     m_Modifications:
     - target: {fileID: -6613768287320492974, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
+      propertyPath: sceneViewId
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -6613768287320492974, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
       propertyPath: ObservedComponents.Array.size
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -4698477882401323734, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"collection":{"$content":[{"name":"DropZoneCounter","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"SpaceRank","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"DropZoneCardList","value":{"$content":[],"$type":"System.Collections.Generic.List`1[[UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"typeHandle":{"Identification":"System.Collections.Generic.List`1[[UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"IsLegalSpace","value":{"$content":true,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"IsEmptySpace","value":{"$content":true,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"TopCardRank","value":null,"typeHandle":{"Identification":null,"$version":"A"},"$version":"A"},{"name":"SpaceNumber","value":{"$content":15,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     - target: {fileID: -26063700530412375, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
       propertyPath: sceneViewId
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 970959628042252283, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
+      propertyPath: sceneViewId
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2911050178504058444, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
       propertyPath: m_Name
-      value: DropZone (15)
+      value: DropZone15
       objectReference: {fileID: 0}
     - target: {fileID: 2911050178504058451, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
       propertyPath: m_Pivot.x
@@ -2108,16 +2447,36 @@ PrefabInstance:
     m_TransformParent: {fileID: 6385951958106388905}
     m_Modifications:
     - target: {fileID: -6613768287320492974, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
+      propertyPath: sceneViewId
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -6613768287320492974, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
       propertyPath: ObservedComponents.Array.size
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -4698477882401323734, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"collection":{"$content":[{"name":"DropZoneCounter","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"SpaceRank","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"DropZoneCardList","value":{"$content":[],"$type":"System.Collections.Generic.List`1[[UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"typeHandle":{"Identification":"System.Collections.Generic.List`1[[UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"IsLegalSpace","value":{"$content":true,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"IsEmptySpace","value":{"$content":true,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"TopCardRank","value":null,"typeHandle":{"Identification":null,"$version":"A"},"$version":"A"},{"name":"SpaceNumber","value":{"$content":10,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     - target: {fileID: -26063700530412375, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
       propertyPath: sceneViewId
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 970959628042252283, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
+      propertyPath: sceneViewId
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2911050178504058444, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
       propertyPath: m_Name
-      value: DropZone (10)
+      value: DropZone10
       objectReference: {fileID: 0}
     - target: {fileID: 2911050178504058451, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
       propertyPath: m_Pivot.x
@@ -2218,16 +2577,36 @@ PrefabInstance:
     m_TransformParent: {fileID: 6385951958106388905}
     m_Modifications:
     - target: {fileID: -6613768287320492974, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
+      propertyPath: sceneViewId
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -6613768287320492974, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
       propertyPath: ObservedComponents.Array.size
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -4698477882401323734, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"collection":{"$content":[{"name":"DropZoneCounter","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"SpaceRank","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"DropZoneCardList","value":{"$content":[],"$type":"System.Collections.Generic.List`1[[UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"typeHandle":{"Identification":"System.Collections.Generic.List`1[[UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"IsLegalSpace","value":{"$content":true,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"IsEmptySpace","value":{"$content":true,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"TopCardRank","value":null,"typeHandle":{"Identification":null,"$version":"A"},"$version":"A"},{"name":"SpaceNumber","value":{"$content":22,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     - target: {fileID: -26063700530412375, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
       propertyPath: sceneViewId
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 970959628042252283, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
+      propertyPath: sceneViewId
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2911050178504058444, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
       propertyPath: m_Name
-      value: DropZone (22)
+      value: DropZone22
       objectReference: {fileID: 0}
     - target: {fileID: 2911050178504058451, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
       propertyPath: m_Pivot.x
@@ -2328,16 +2707,36 @@ PrefabInstance:
     m_TransformParent: {fileID: 6385951958106388905}
     m_Modifications:
     - target: {fileID: -6613768287320492974, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
+      propertyPath: sceneViewId
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -6613768287320492974, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
       propertyPath: ObservedComponents.Array.size
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -4698477882401323734, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"collection":{"$content":[{"name":"DropZoneCounter","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"SpaceRank","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"DropZoneCardList","value":{"$content":[],"$type":"System.Collections.Generic.List`1[[UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"typeHandle":{"Identification":"System.Collections.Generic.List`1[[UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"IsLegalSpace","value":{"$content":true,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"IsEmptySpace","value":{"$content":true,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"TopCardRank","value":null,"typeHandle":{"Identification":null,"$version":"A"},"$version":"A"},{"name":"SpaceNumber","value":{"$content":5,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     - target: {fileID: -26063700530412375, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
       propertyPath: sceneViewId
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 970959628042252283, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
+      propertyPath: sceneViewId
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2911050178504058444, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
       propertyPath: m_Name
-      value: DropZone (5)
+      value: DropZone5
       objectReference: {fileID: 0}
     - target: {fileID: 2911050178504058451, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
       propertyPath: m_Pivot.x
@@ -2438,16 +2837,36 @@ PrefabInstance:
     m_TransformParent: {fileID: 6385951958106388905}
     m_Modifications:
     - target: {fileID: -6613768287320492974, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
+      propertyPath: sceneViewId
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -6613768287320492974, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
       propertyPath: ObservedComponents.Array.size
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -4698477882401323734, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"collection":{"$content":[{"name":"DropZoneCounter","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"SpaceRank","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"DropZoneCardList","value":{"$content":[],"$type":"System.Collections.Generic.List`1[[UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"typeHandle":{"Identification":"System.Collections.Generic.List`1[[UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"IsLegalSpace","value":{"$content":true,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"IsEmptySpace","value":{"$content":true,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"TopCardRank","value":null,"typeHandle":{"Identification":null,"$version":"A"},"$version":"A"},{"name":"SpaceNumber","value":{"$content":16,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     - target: {fileID: -26063700530412375, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
       propertyPath: sceneViewId
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 970959628042252283, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
+      propertyPath: sceneViewId
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2911050178504058444, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
       propertyPath: m_Name
-      value: DropZone (16)
+      value: DropZone16
       objectReference: {fileID: 0}
     - target: {fileID: 2911050178504058451, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
       propertyPath: m_Pivot.x
@@ -2548,16 +2967,36 @@ PrefabInstance:
     m_TransformParent: {fileID: 6385951958106388905}
     m_Modifications:
     - target: {fileID: -6613768287320492974, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
+      propertyPath: sceneViewId
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -6613768287320492974, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
       propertyPath: ObservedComponents.Array.size
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -4698477882401323734, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"collection":{"$content":[{"name":"DropZoneCounter","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"SpaceRank","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"DropZoneCardList","value":{"$content":[],"$type":"System.Collections.Generic.List`1[[UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"typeHandle":{"Identification":"System.Collections.Generic.List`1[[UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"IsLegalSpace","value":{"$content":true,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"IsEmptySpace","value":{"$content":true,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"TopCardRank","value":null,"typeHandle":{"Identification":null,"$version":"A"},"$version":"A"},{"name":"SpaceNumber","value":{"$content":8,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     - target: {fileID: -26063700530412375, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
       propertyPath: sceneViewId
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 970959628042252283, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
+      propertyPath: sceneViewId
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2911050178504058444, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
       propertyPath: m_Name
-      value: DropZone (8)
+      value: DropZone8
       objectReference: {fileID: 0}
     - target: {fileID: 2911050178504058451, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
       propertyPath: m_Pivot.x
@@ -2658,16 +3097,36 @@ PrefabInstance:
     m_TransformParent: {fileID: 6385951958106388905}
     m_Modifications:
     - target: {fileID: -6613768287320492974, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
+      propertyPath: sceneViewId
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -6613768287320492974, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
       propertyPath: ObservedComponents.Array.size
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -4698477882401323734, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"collection":{"$content":[{"name":"DropZoneCounter","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"SpaceRank","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"DropZoneCardList","value":{"$content":[],"$type":"System.Collections.Generic.List`1[[UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"typeHandle":{"Identification":"System.Collections.Generic.List`1[[UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"IsLegalSpace","value":{"$content":true,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"IsEmptySpace","value":{"$content":true,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"TopCardRank","value":null,"typeHandle":{"Identification":null,"$version":"A"},"$version":"A"},{"name":"SpaceNumber","value":{"$content":12,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     - target: {fileID: -26063700530412375, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
       propertyPath: sceneViewId
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 970959628042252283, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
+      propertyPath: sceneViewId
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2911050178504058444, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
       propertyPath: m_Name
-      value: DropZone (12)
+      value: DropZone12
       objectReference: {fileID: 0}
     - target: {fileID: 2911050178504058451, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
       propertyPath: m_Pivot.x
@@ -2768,16 +3227,36 @@ PrefabInstance:
     m_TransformParent: {fileID: 6385951958106388905}
     m_Modifications:
     - target: {fileID: -6613768287320492974, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
+      propertyPath: sceneViewId
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -6613768287320492974, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
       propertyPath: ObservedComponents.Array.size
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -4698477882401323734, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"collection":{"$content":[{"name":"DropZoneCounter","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"SpaceRank","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"DropZoneCardList","value":{"$content":[],"$type":"System.Collections.Generic.List`1[[UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"typeHandle":{"Identification":"System.Collections.Generic.List`1[[UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"IsLegalSpace","value":{"$content":true,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"IsEmptySpace","value":{"$content":true,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"TopCardRank","value":null,"typeHandle":{"Identification":null,"$version":"A"},"$version":"A"},{"name":"SpaceNumber","value":{"$content":3,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     - target: {fileID: -26063700530412375, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
       propertyPath: sceneViewId
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 970959628042252283, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
+      propertyPath: sceneViewId
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2911050178504058444, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
       propertyPath: m_Name
-      value: DropZone (3)
+      value: DropZone3
       objectReference: {fileID: 0}
     - target: {fileID: 2911050178504058451, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
       propertyPath: m_Pivot.x
@@ -2878,16 +3357,36 @@ PrefabInstance:
     m_TransformParent: {fileID: 6385951958106388905}
     m_Modifications:
     - target: {fileID: -6613768287320492974, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
+      propertyPath: sceneViewId
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -6613768287320492974, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
       propertyPath: ObservedComponents.Array.size
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -4698477882401323734, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"collection":{"$content":[{"name":"DropZoneCounter","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"SpaceRank","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"DropZoneCardList","value":{"$content":[],"$type":"System.Collections.Generic.List`1[[UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"typeHandle":{"Identification":"System.Collections.Generic.List`1[[UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"IsLegalSpace","value":{"$content":true,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"IsEmptySpace","value":{"$content":true,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"TopCardRank","value":null,"typeHandle":{"Identification":null,"$version":"A"},"$version":"A"},{"name":"SpaceNumber","value":{"$content":14,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     - target: {fileID: -26063700530412375, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
       propertyPath: sceneViewId
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 970959628042252283, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
+      propertyPath: sceneViewId
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2911050178504058444, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
       propertyPath: m_Name
-      value: DropZone (14)
+      value: DropZone14
       objectReference: {fileID: 0}
     - target: {fileID: 2911050178504058451, guid: ba4309d1703ea4968abe3b715ec53a06, type: 3}
       propertyPath: m_Pivot.x

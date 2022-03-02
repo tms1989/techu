@@ -19,8 +19,8 @@ GameObject:
   - component: {fileID: -4698477882401323734}
   - component: {fileID: -551244288819206621}
   - component: {fileID: -6613768287320492974}
-  - component: {fileID: -4941988516195063849}
   - component: {fileID: 7591046254962474768}
+  - component: {fileID: -7405471167357625437}
   m_Layer: 8
   m_Name: DropZone
   m_TagString: Untagged
@@ -205,7 +205,8 @@ MonoBehaviour:
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"IsLegalSpace","value":{"$content":true,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"IsEmptySpace","value":{"$content":true,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
-      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"CurrentDropCard","value":null,"typeHandle":{"Identification":null,"$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"TopCardRank","value":null,"typeHandle":{"Identification":null,"$version":"A"},"$version":"A"},{"name":"SpaceNumber","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!114 &-551244288819206621
 MonoBehaviour:
@@ -241,27 +242,10 @@ MonoBehaviour:
   Synchronization: 3
   OwnershipTransfer: 0
   observableSearch: 2
-  ObservedComponents:
-  - {fileID: -4941988516195063849}
+  ObservedComponents: []
   sceneViewId: 0
   InstantiationId: 0
   isRuntimeInstantiated: 0
---- !u!114 &-4941988516195063849
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2911050178504058444}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 627855c7f81362d41938ffe0b1475957, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SynchronizePosition: 1
-  m_SynchronizeRotation: 1
-  m_SynchronizeScale: 0
-  m_UseLocal: 1
 --- !u!114 &7591046254962474768
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -274,6 +258,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce994e1c1aedd4ac7b2bdb399d5b4625, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &-7405471167357625437
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2911050178504058444}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c59e97090629849408e674d3100ffcbf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spaceRankRPC: 0
 --- !u!1001 &3357147803305307129
 PrefabInstance:
   m_ObjectHideFlags: 0
