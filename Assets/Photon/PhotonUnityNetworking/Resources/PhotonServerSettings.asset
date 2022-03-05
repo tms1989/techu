@@ -40,6 +40,17 @@ MonoBehaviour:
   - Fire
   - RespawnSpaceship
   - RPC_IncreaseNumber
+  - RPC_UpdateTopCardRank
+  - RPC_UpdateTopCardRankNew
+  - RPC_UpdateTopCardRankPrevious
+  - RPC_UpdateSpaceNumber
+  - RPC_UpdateCurrentSpaceNumber
+  - UpdateCurrentSpaceNumber
+  - RPC_ResetCurrentSpaceNumber
+  - RPC_UpdateBlackDeckNotYetDealt
+  - RPC_UpdateRedDeckNotYetDealt
+  - RPC_UpdateSpaceRank
+  - RPC_ResetSpaceRank
   DisableAutoOpenWizard: 1
   ShowSettings: 1
   DevRegionSetOnce: 1
