@@ -23,4 +23,8 @@ public class PhotonToVisualScripting : MonoBehaviourPunCallbacks
     {
         CustomEvent.Trigger(gameObject, "OnJoinRandomFailed", returnCode, message);
     }
+    public override void OnJoinedLobby()
+    {
+        CustomEvent.Trigger(gameObject, "OnJoinedLobby");
+    }
 }
