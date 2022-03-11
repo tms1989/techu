@@ -13,15 +13,21 @@ public class RPC_Controller : MonoBehaviour
    public int blackDeckNotYetDealt;
    public int currentSpaceNumber;
 
-    /*void Start(){
+    void Start(){
         PV= GetComponent<PhotonView>();
     }
 
+    /*
     void Update(){
         txtNumber.text="Number to Increase: "+globalNumber;
     }
-           */
+         
 
+    void OnEndDrag(){
+    photonView.RPC("SetCurrentSpaceNumber", RpcTarget.All, this.currentSpaceNumberRPC);
+    }
+
+  */
     [PunRPC]
     void RPC_UpdateCurrentSpaceNumber(){
         currentSpaceNumberRPC++;
@@ -34,9 +40,9 @@ public class RPC_Controller : MonoBehaviour
     }
 
     [PunRPC]
-    void RPC_UpdateRedDeckNotYetDealt()
+    void RPC_SetCurrentSpaceNumber(int newSpaceNumber)
     {
-        redDeckNotYetDealt--;
+        currentSpaceNumberRPC = newSpaceNumber;
     }
 
     [PunRPC]
